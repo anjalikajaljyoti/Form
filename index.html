@@ -1,44 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Page</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
+
 <body>
-    <!-- <img src="img/img.png" alt=""> -->
-    <div class="container">
-        <div class="left-img">
-            <img src="img/img3.png" alt="">
-        </div>
-        <div class="all-content">
-            <div class="description">
-                <h1>description About hills</h1>
-                <p>A hill is a piece of land that rises higher than everything surrounding it. It looks like a little bump in the Earth. Since they are higher than everything around them, hills are good places to get a nice view.
-
-                    Hills are easier to climb than mountains. They are less steep and not as high. But, like a mountain, a hill will usually have an obvious summit, which is its highest point. </p>
+    <div class="cintainer">
+        <h1>Form</h1>
+        <form action="#" class="form-grp">
+            <div>
+                <label for="Name">Name</label>
+                <input type="text" id="Name" name="Name" placeholder="Enter Your Name">
             </div>
-            <div class="imgs">
-                <img src="img/img2.png" alt="">
-                <img src="img/img1.png" alt="">
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email" placeholder="Enter Your Email">
             </div>
-            <div class="form-grp">
-                <h2>Join Us !</h2>
-                <form action="#" class="form1">
-                    <div>
-                        <!-- <label for="name">Name</label> -->
-                        <input type="text" id="name" name="Name" placeholder="Enter your name">
-                        <!-- <label for="email">Email</label> -->
-                        <input type="email" name="email" id="email" placeholder="Enter your Email">
-                    </div>
-
-                    <button>I want to be a part of it.</button>
-                </form>
+            <div>
+                <label for="Phone">Phone</label>
+                <input type="text" id="Phone" name="Phone" placeholder="Enter Your Phone Number">
             </div>
-        </div>
-
+            <div>
+                <label for="Msg">Message</label>
+                <textarea name="Msg" id="Msg"></textarea>
+            </div>
+            <div class="btn"><input type="button" value="Submit"></div>
+        </form>
     </div>
 </body>
+
 </html>
