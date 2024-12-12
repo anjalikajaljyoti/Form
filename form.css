@@ -55,20 +55,8 @@
     margin: 20px 190px;
     
   }
-
-  /* button {
-    border: 2px solid black;
-    border-radius: 7px;
-    margin: 0px auto;
-    padding : 0px 5px; 
-    width: 131px;
-    height: 39px;
-    font-size: 25px;
-  } */
-
-
   textarea {
-    background-color: gainsboro;
+    background-color: white;
     border: 2px solid black;
     border-radius: 7px;
     margin: 0px 78px;
