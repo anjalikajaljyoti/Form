@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -46,17 +47,14 @@
   }
 
   .btn {
-    width: 30px;
-    height: 20px; 
-    font-size: 30px;
-    margin: 20px 89px;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 131px;
+    height: 39px;
+    font-size: 25px;
+    margin: 20px 190px;
     
   }
-
-  .btn input {
-    font-size: 20px;
-  }
-
 
   textarea {
     background-color: gainsboro;
